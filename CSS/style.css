@@ -1,0 +1,115 @@
+/* ******************************************HEADER********************************************** */
+.hdr{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+
+/* *********************************************BODY************************************************ */
+body{
+
+background-color: rgb(43, 41, 41);
+}
+
+main{
+margin-bottom: 10px;
+}
+
+.all{
+
+    display: flex;
+}
+
+.products{
+    justify-content: space-around;
+
+}
+
+
+.btnprc{
+    display: flex;
+    justify-items: center;
+    
+}
+
+.orng{
+    color: orange;
+
+}
+
+.btn-dark{
+    color: orange;
+    position: relative;
+}
+
+.btnprc, .descriptionProduct{
+
+    background-color: whitesmoke;
+    width:fit-content;
+    
+}
+
+.bckgrndprdct{
+    background-color: rgb(236, 235, 235);
+}
+
+.surligne{
+
+    text-decoration-line: line-through
+}
+
+ul {
+    border-radius: 5px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(156, 154, 154);
+  }
+  
+  li {
+    float:right
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .navmiddle{
+    display: flex;
+  }
+/* *********************************************FOOTER*************************************************** */
+
+.ftr{
+    display: flex;
+    justify-content:space-between;
+    background-color: rgb(90, 88, 88);
+}
+
+.v-line{
+    border: 3px solid rgb(150, 148, 148);
+    
+   }
+
+.logo{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.copyright, .ftrContent{
+    margin-top: 20px;
+}
+
+
+
+
